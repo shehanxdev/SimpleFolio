@@ -30,7 +30,7 @@
   }
 
   .hero-title {
-    font-size:calc(24px + 29 * ((100vw - 400px) / 1200));
+    font-size:calc(36px + 29 * ((100vw - 400px) / 1200));
     font-weight: 700;
     text-align: left;
 
@@ -58,26 +58,25 @@
     }
 
     & a {
-      font-size: 2.4rem;
+      font-size:calc(15px + 9 * ((100vw - 400px) / 1200));
 
-      @include respond(phone) {
-        font-size: 2rem;
-      }
+
+     
     }
   }
 }
 #hero img{
-  width: calc(280px + 69 * ((100vw - 400px) / 1200));
+  width: calc(238px + 69 * ((100vw - 400px) / 1200));
   
 }
 .hero-subtitle{
   text-align: left;
-  font-size:calc(20px + 18 * ((100vw - 400px) / 1200));
+  font-size:calc(22px + 18 * ((100vw - 400px) / 1200));
   font-weight: 700;
   margin-bottom: 3.2rem;
 }
 .hero-subtitle span{
-  font-size: 1vw;
+  font-size: calc(13px + 6 * ((100vw - 400px) / 1200));
   font-weight: 100;
 }
 @media screen and (max-width:1100px) {
