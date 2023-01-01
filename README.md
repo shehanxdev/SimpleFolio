@@ -7,3 +7,5 @@ npm
 CSS
 HTML
 Saas
+I habe used IMGbot to optimize images
+
